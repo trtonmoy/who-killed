@@ -1,0 +1,261 @@
+.wrapper {
+  max-width: 990px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper_road {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+.ca_btn {
+  padding: 7px 30px;
+  background-color: #014525;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  font-size: 18px;
+}
+.btn_peer {
+  text-transform: none;
+  color: #20fb5f;
+  background-color: #000;
+  font-size: 18px;
+  padding: 11px 40px;
+  border-radius: 30px;
+  transition: all 0.3s;
+  margin-right: 15px;
+  border: 2px solid #00331c;
+  /* box-shadow: 1px 0px 11px 1px #20fb5f; */
+  box-shadow: 0 0 20px #20fb5ed4;
+}
+
+.btn_peer:hover {
+  background-color: transparent;
+  color: #20fb5f;
+}
+
+/******card section********/
+.ft_card {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #00331c86, #191919f6);
+  border-radius: 8px;
+  padding: 30px 25px;
+  height: 350px;
+}
+.ft_card {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #12803c, #191919f6);
+  border-radius: 8px;
+  padding: 30px 25px;
+  box-shadow: 1px 0px 11px 1px #3cdf7a;
+  margin: 0px 8px;
+}
+.img_box {
+  display: flex;
+  align-items: cener;
+  justify-content: center;
+}
+
+/* roadmap section */
+
+.roadmap-info .status li {
+  display: list-item;
+  text-align: left; /*list-style-type: circle;*/
+}
+
+img.road_img {
+  width: 72px;
+  display: block;
+}
+
+.road_card {
+  background: #111;
+  padding: 37px;
+  border-radius: 10px;
+  height: 530px;
+  margin: 15px 4px;
+  border: 1px solid #038451;
+}
+.img_box img {
+  width: 60px;
+}
+.road_card h3,
+.road_card h2 {
+  font-family: "Simpsonfont", sans-serif;
+}
+.road_card ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc !important;
+}
+
+.road_card ul li {
+  font-family: "Fishes Friends", sans-serif;
+  margin-left: 12px;
+}
+
+.vertical-social .midnightHeader ul li a i {
+  color: #038451;
+  font-size: 20px;
+  padding: 1rem;
+  width: 55px;
+  vertical-align: sub;
+}
+
+.footer .footer-wrapper ul.social-buttons li a {
+  padding: 0.41rem 0.69rem;
+  margin-right: 1rem;
+  font-size: 1.125rem;
+  border: 1px solid #038451;
+  color: #038451;
+}
+.footer .footer-wrapper ul.social-buttons li a:hover {
+  color: #000 !important;
+  background-color: #038451 !important;
+}
+.neon-button {
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #038451;
+  border: #038451 0.125em solid;
+  padding: 5px 20px;
+  border-radius: 4px;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+}
+
+.social_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social_icon a {
+  display: inline-block;
+  margin: 0 8px;
+}
+.partners {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.partners a img {
+  width: 90px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark {
+  padding: 23px 40px;
+}
+li.nav-item {
+  padding: 0 10px;
+}
+
+/* Modal CSS */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/img/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.cta_btn {
+  outline: none;
+  border: none;
+  padding: 7px 30px;
+  background-color: red;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+}
+.no_btn {
+  background-color: blue;
+  margin-left: 10px;
+}
+.no_btn:hover {
+  color: #fff !important;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main {
+  display: none; /* Hidden by default */
+}
+
+/* video style */
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.pop_img {
+  width: 500px;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "TESLA", sans-serif !important;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "TESLA"; /* Choose a unique name for your font */
+  src: url("/fonts/TESLA.ttf") format("woff2"),
+    /* Modern Browsers */ url("/fonts/TESLA.ttf") format("woff");
+
+  /* Older Browsers */ /* You can add more file formats here if needed (e.g., .ttf, .eot) */
+}
+
+/* responsive design */
+@media screen and (max-width: 768px) {
+  .ca_btn {
+    font-size: 12px;
+    word-break: break-all;
+    padding: 7px 10px;
+  }
+  .partners {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .ft_card {
+    margin-bottom: 35px;
+  }
+  .road_card {
+    height: 495px;
+  }
+}
