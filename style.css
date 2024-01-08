@@ -259,3 +259,9 @@ video {
     height: 495px;
   }
 }
+
+#myVideo {
+  width: 100%; /* Full-width */
+  height: auto; /* Maintain aspect ratio */
+  background-color: black;
+}

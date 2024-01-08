@@ -248,7 +248,14 @@
         </header>
         <main class="mx-auto">
           <section
-            class="relative mx-auto pt-4 lg:h-[750px] lg:pt-16 xl:h-screen"
+            class="relative mx-auto pt-4 lg:pt-16"
+            style="
+              background-image: linear-gradient(#000000af, #000000c1),
+                url(/img/modal.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              padding: 80px 0;
+            "
           >
             <!-- <img
             src="./20230324063401im_/https_/torwallet.app/mobile-mask.png"
@@ -377,25 +384,47 @@
                 <!-- social icon -->
                 <div class="social_icon">
                   <a href="tglink" target="_blank" rel="noopener noreferrer">
-                    <img src="/img/telegram.png" style="width: 54px" alt="" />
+                    <img src="/img/tg.webp" style="width: 54px" alt="" />
                   </a>
                   <a
                     href="twitterlink"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/img/twitter.png" style="width: 54px" alt="" />
+                    <img src="/img/twit.png" style="width: 54px" alt="" />
                   </a>
-                  <a href="buylink" target="_blank" rel="noopener noreferrer">
+                  <!-- <a href="buylink" target="_blank" rel="noopener noreferrer">
                     <img src="/img/uni.png" style="width: 54px" alt="" />
-                  </a>
+                  </a> -->
                   <a
                     href="etherscreen"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src="/img/etherscan.png" style="width: 54px" alt="" />
+                    <img src="/img/ether.svg" style="width: 54px" alt="" />
                   </a>
+                </div>
+
+                <!-- video section -->
+                <div
+                  style="
+                    max-width: 650px;
+                    width: 98%;
+                    margin: 0 auto;
+                    padding-top: 20px;
+                  "
+                >
+                  <video
+                    id="myVideo"
+                    width="320"
+                    height="240"
+                    loop
+                    controls
+                    style="border-radius: 10px"
+                  >
+                    <source src="/img/vid.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </div>
             </div>
@@ -488,15 +517,31 @@
                 style="width: 98%; max-width: 700px; margin: 0 auto"
               >
                 <div>
-                  Bill Gates, Ghislaine Maxwell, Tom Hanks, Donald Trump, Harvey
-                  Weinstein, Prince Andrew, possibly the Clintons? He’s dead but
-                  we’re adding him onto the list for racial diversity and
-                  representation.
+                  Bill Gates, Ghislaine Maxwell, Tom Hanks, Harvey Weinstein,
+                  Prince Andrew, possibly the Clintons? Probably not Bill Cosby
+                  but we’re adding him onto the list for racial diversity and
+                  representation. Nobody knows, except one thing – Epstein would
+                  have chosen sleeping with a consenting adult over committing
+                  suicide.
                 </div>
-                <div>
+                <div
+                  style="
+                    width: 98%;
+                    max-width: 650px;
+                    margin: 0 auto;
+                    padding: 40px 0;
+                  "
+                >
+                  <img
+                    src="/img/meme.png"
+                    style="width: 100%; border-radius: 10px"
+                    alt=""
+                  />
+                </div>
+                <!-- <div>
                   Nobody knows, except one thing – Epstein would have chosen
                   sleeping with a consenting adult over committing suicide.
-                </div>
+                </div> -->
               </div>
               <div
                 data-aos="fade-down"
@@ -1383,9 +1428,12 @@
     ></script>
 
     <!-- AOS Script -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
     <script>
-      AOS.init();
-    </script> -->
+      document.addEventListener("DOMContentLoaded", function () {
+        var myVideo = document.getElementById("myVideo");
+        myVideo.play();
+      });
+    </script>
   </body>
 </html>
