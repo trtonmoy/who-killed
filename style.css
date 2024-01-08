@@ -265,3 +265,10 @@ video {
   height: auto; /* Maintain aspect ratio */
   background-color: black;
 }
+
+@media screen and (max-width: 420px) {
+  .button_group {
+    display: flex;
+    align-items: center;
+  }
+}
